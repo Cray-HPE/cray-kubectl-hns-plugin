@@ -1,10 +1,7 @@
-# cray-kubectl-hns-plugin
+# `cray-kubectl-hns-plugin`
 
-This repo creates an rpm for installation on NCNs so `kubectl hns *` commands can work.
+This repository provides a Kubernetes plugin for `kubectl hns *` commands.
 
-The .version file in this repo should be updated to stay in sync with the version of the kubectl-hns
-binary being bundled in the rpm.  The initial binary was pulled from:
+The initial binary was pulled from: https://github.com/kubernetes-sigs/hierarchical-namespaces/releases/download/v1.0.0/kubectl-hns_linux_amd64
 
-https://github.com/kubernetes-sigs/hierarchical-namespaces/releases/download/v1.0.0/kubectl-hns_linux_amd64
-
-See https://github.com/kubernetes-sigs/hierarchical-namespaces for the latest `kubectl-hns` plugin info.
+See [here](https://github.com/kubernetes-sigs/hierarchical-namespaces) for the latest `kubectl-hns` plugin info.
